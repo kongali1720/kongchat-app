@@ -15,8 +15,6 @@
   Made with 💻 + ☕ by <b>Kongali1720</b>
 </p>
 
----
-
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OTk4cDM0MGNnamZiN3Q3aWVlZjRnZWFlM3UxZG92eXlrMWcyM296bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qKCvrZLXLwvzcjMKQ5/giphy.gif" alt="KongChat Animation" width="300"/>
 </p>
@@ -27,8 +25,6 @@
 
 **KongChat** adalah aplikasi chat **inovatif** yang dirancang khusus untuk menjangkau pengguna di Indonesia dan negara berkembang.  
 Fokus kami adalah menghadirkan pengalaman komunikasi **nyaman, aman, dan cepat**, dengan meminimalkan batasan teknis dan sosial-ekonomi.
-
----
 
 ## 📜 Filosofi Pengembangan
 
@@ -90,9 +86,6 @@ kongchat-v1.0-pro/
 
 ---
 
-
----
-
 ## 🔥 Fitur Unggulan
 
 ✅ End-to-End Encryption (E2EE)  
@@ -108,10 +101,10 @@ kongchat-v1.0-pro/
 ## 🛡️ Keamanan
 
 KongChat didesain dengan keamanan sebagai **prioritas utama**:
-- 🔐 Enkripsi AES-256 untuk database lokal
-- 📲 WebSocket aman (WSS)
-- 👥 Autentikasi dua faktor (2FA)
-- 🧪 Audit keamanan rutin
+  - 🔐 Enkripsi AES-256 untuk database lokal
+  - 📲 WebSocket aman (WSS)
+  - 👥 Autentikasi dua faktor (2FA)
+  - 🧪 Audit keamanan rutin
 
 > 📘 Baca lebih lanjut di `docs/SECURITY.md`
 
@@ -120,9 +113,9 @@ KongChat didesain dengan keamanan sebagai **prioritas utama**:
 ## 🧪 Testing & Stabilitas
 
 Kami menyediakan:
-- Uji performa masif (`stress_test.py`)
-- Uji keamanan enkripsi (`security_audit.py`)
-- CI/CD dengan validasi otomatis
+  - Uji performa masif (`stress_test.py`)
+  - Uji keamanan enkripsi (`security_audit.py`)
+  - CI/CD dengan validasi otomatis
 
 ---
 
@@ -144,14 +137,14 @@ Tersedia untuk cloud maupun on-premise.
 KongChat dikembangkan secara bertahap agar stabil, kuat, dan relevan untuk pengguna di Indonesia & negara berkembang.
 
 ### 🧩 Fase 2: Fitur Inti _(3 Minggu)_
-- 📞 **Panggilan Suara & Video** menggunakan **WebRTC**
-- 💸 **Sistem Pembayaran QRIS** (KongPay) — bayar langsung via chat!
-- 🖥️ **CLI Client** untuk pengguna di daerah dengan koneksi lemah
+  - 📞 **Panggilan Suara & Video** menggunakan **WebRTC**
+  - 💸 **Sistem Pembayaran QRIS** (KongPay) — bayar langsung via chat!
+  - 🖥️ **CLI Client** untuk pengguna di daerah dengan koneksi lemah
 
 ### 🔧 Fase 3: Stabilisasi _(1 Minggu)_
-- 🧑‍💻 **Audit Keamanan** oleh Ethical Hacker
-- ⚙️ **Optimasi Performa** untuk perangkat low-end (1GB RAM pun bisa)
-- 📚 **Dokumentasi Lengkap** dalam Bahasa Indonesia (`docs/ID.md`)
+  - 🧑‍💻 **Audit Keamanan** oleh Ethical Hacker
+  - ⚙️ **Optimasi Performa** untuk perangkat low-end (1GB RAM pun bisa)
+  - 📚 **Dokumentasi Lengkap** dalam Bahasa Indonesia (`docs/ID.md`)
 
 ---
 
@@ -171,10 +164,10 @@ KongChat dikembangkan secara bertahap agar stabil, kuat, dan relevan untuk pengg
 
 KongChat tidak hanya "kerja", tapi **berdampak sosial nyata**:
 
-- ✅ **End-to-End Encryption**: *Privasi bukan fitur, tapi hak.*
-- ⚙️ **Dukungan Perangkat Rendah**: Dirancang untuk berjalan optimal di HP jadul sekalipun
-- ♿ **Aksesibilitas Disabilitas**: Text-to-Speech dan Navigasi CLI
-- 🇮🇩 **Lokal Konten Nusantara**: Emoji, stiker, dan suara lokal jadi identitas
+  - ✅ **End-to-End Encryption**: *Privasi bukan fitur, tapi hak.*
+  - ⚙️ **Dukungan Perangkat Rendah**: Dirancang untuk berjalan optimal di HP jadul sekalipun
+  - ♿ **Aksesibilitas Disabilitas**: Text-to-Speech dan Navigasi CLI
+  - 🇮🇩 **Lokal Konten Nusantara**: Emoji, stiker, dan suara lokal jadi identitas
 
 ---
 
@@ -183,82 +176,73 @@ KongChat tidak hanya "kerja", tapi **berdampak sosial nyata**:
 > “KongChat akan selalu bebas, terbuka, dan bisa dikembangkan siapa saja.”
 
 Dengan lisensi **AGPLv3**, kamu:
-- Bebas melihat dan modifikasi kode
-- Bebas deploy untuk komunitasmu sendiri
-- Tetap harus membagikan perubahan jika kamu merilis versi publik
-
----
+  - Bebas melihat dan modifikasi kode
+  - Bebas deploy untuk komunitasmu sendiri
+  - Tetap harus membagikan perubahan jika kamu merilis versi publik
 
 ---
 
 ## 📡 Strategi Multi-Dimensi KongChat
 
-KongChat dirancang bukan hanya sebagai aplikasi chatting biasa, tapi sebagai **gerakan literasi digital inklusif**. Dengan pendekatan strategis teknis, sosial, dan ekonomi, KongChat fokus pada jangkauan luas dan dampak sosial nyata, terutama di **daerah 3T dan negara berkembang**.
+  * KongChat dirancang bukan hanya sebagai aplikasi chatting biasa, tapi sebagai **gerakan literasi digital inklusif**. 
+  * Dengan pendekatan strategis teknis, sosial, dan ekonomi, KongChat fokus pada jangkauan luas dan dampak sosial nyata, terutama di **daerah 3T dan negara berkembang**.
 
 ---
 
 ### 1️⃣ Aksesibilitas Teknis
 
 #### 🌐 Multi-Platform Support
-- ✅ **Web PWA** — Akses instan via browser tanpa instalasi
-- ✅ **Android APK kecil (<5MB)** — Ramah untuk pengguna jaringan lambat
-- ✅ **CLI** — Text-only client untuk bandwidth terbatas
-- ✅ **Kompatibel hingga Android 5.0 (Lollipop)**
-- ✅ **Browser dukungan 5 tahun ke belakang**
+  - ✅ **Web PWA** — Akses instan via browser tanpa instalasi
+  - ✅ **Android APK kecil (<5MB)** — Ramah untuk pengguna jaringan lambat
+  - ✅ **CLI** — Text-only client untuk bandwidth terbatas
+  - ✅ **Kompatibel hingga Android 5.0 (Lollipop)**
+  - ✅ **Browser dukungan 5 tahun ke belakang**
 
 #### 🛰️ Optimasi Jaringan Lemah
-- 📡 Protokol untuk jaringan **2G/3G**
-- 🖼️ Kompresi gambar otomatis (≤20KB thumbnail)
-- 🔤 Mode **Teks-Saja** untuk hemat data ekstrem
-
----
+  - 📡 Protokol untuk jaringan **2G/3G**
+  - 🖼️ Kompresi gambar otomatis (≤20KB thumbnail)
+  - 🔤 Mode **Teks-Saja** untuk hemat data ekstrem
 
 ### 2️⃣ Strategi Distribusi
 
 #### 🚀 Instalasi Offline
-- 💽 Distribusi via **USB** ke pesantren/sekolah terpencil
-- 🖥️ Installer mandiri di **warnet** dan balai desa
+  - 💽 Distribusi via **USB** ke pesantren/sekolah terpencil
+  - 🖥️ Installer mandiri di **warnet** dan balai desa
 
 #### 🤝 Kemitraan Strategis
-- 📶 Bundle data dengan **Telkomsel, XL, Indosat**
-- 🏛️ Integrasi dengan layanan publik seperti **BPJS, PLN**
+  - 📶 Bundle data dengan **Telkomsel, XL, Indosat**
+  - 🏛️ Integrasi dengan layanan publik seperti **BPJS, PLN**
 
 #### 🏪 Optimalisasi App Store
-- ✅ Listing di **Play Store, AppGallery, F-Droid**
-- 🎯 SEO & Keyword targeting lokal (e.g., “chat Indonesia ringan”)
-
----
+  - ✅ Listing di **Play Store, AppGallery, F-Droid**
+  - 🎯 SEO & Keyword targeting lokal (e.g., “chat Indonesia ringan”)
 
 ### 3️⃣ Pendekatan Sosial
 
 #### 👥 Basis Komunitas
-- 🤲 Onboarding via **ormas Islam** (NU, Muhammadiyah)
-- 🏫 Pelatihan di **pesantren & sekolah vokasi**
+  - 🤲 Onboarding via **ormas Islam** (NU, Muhammadiyah)
+  - 🏫 Pelatihan di **pesantren & sekolah vokasi**
 
 #### 🎭 Konten Lokal Relevan
-- 🎨 Sticker Pack: **Wayang, Rendang, Kopi, dll**
-- 📺 Channel edukasi: **dakwah, pertanian, UMKM**
+  - 🎨 Sticker Pack: **Wayang, Rendang, Kopi, dll**
+  - 📺 Channel edukasi: **dakwah, pertanian, UMKM**
 
 #### 💰 Program Afiliasi
-- 🎁 Pulsa reward untuk referal aktif
-- 💸 Cashback KongPay saat transaksi pertama
-
----
+  - 🎁 Pulsa reward untuk referal aktif
+  - 💸 Cashback KongPay saat transaksi pertama
 
 ### 4️⃣ Model Keberlanjutan
 
 #### 🔐 Zero Monetization Data
-- ❌ Tidak menjual data pengguna
-- ✅ Pendapatan dari fitur premium non-esensial:
+  - ❌ Tidak menjual data pengguna
+  - ✅ Pendapatan dari fitur premium non-esensial:
   - 🎨 Tema custom
   - 🌟 Stiker premium karya lokal
   - ✅ Akun terverifikasi untuk UMKM
 
 #### 🔋 Infrastruktur Hemat
-- 🧠 **Arsitektur server terdistribusi**
-- 📁 **Peer-to-peer file sharing** untuk efisiensi besar
-
----
+  - 🧠 **Arsitektur server terdistribusi**
+  - 📁 **Peer-to-peer file sharing** untuk efisiensi besar
 
 ### 5️⃣ Pengukuran Jangkauan
 
@@ -278,12 +262,12 @@ def calculate_outreach():
 
 ## 🎯 Target 1 Tahun
 
-1 Juta Pengguna Terdaftar
-40% dari Daerah Non-Urban
-20% Memakai Fitur Aksesibilitas
-⚙️ Implementasi Teknis Krusial
+  - 1 Juta Pengguna Terdaftar
+  - 40% dari Daerah Non-Urban
+  - 20% Memakai Fitur Aksesibilitas
+  - ⚙️ Implementasi Teknis Krusial
 
-🧩 A. Offline PWA 
+## 🧩 A. Offline PWA 
 
 ```
 // sw.js – Cache asset penting
@@ -325,28 +309,28 @@ kongchat_cli --protocol=txtonly --compression=zstd
 
 ## 🪄 Langkah Taktis Pertama
 
-🔓 Beta Terbuka
+  - 🔓 Beta Terbuka
+  - 🎯 100 Pesantren sebagai early adopters
+  - 🐞 Program Bug Bounty: Reward laporan keamanan
+  - 📣 Kampanye Sosial
+    
+## 📱 “Sejuta Pesan Dakwah Digital” – kolaborasi ormas Islam
+  - 🛍️ KongChat UMKM Festival – diskon untuk merchant peserta
+  - 🏛️ Advokasi Regulasi
 
-🎯 100 Pesantren sebagai early adopters
-🐞 Program Bug Bounty: Reward laporan keamanan
-📣 Kampanye Sosial
+## 📄 Audiensi dengan Kominfo untuk sertifikasi lokal
+  - 🤝 Kerjasama Kemendes PDTT untuk digitalisasi desa
 
-📱 “Sejuta Pesan Dakwah Digital” – kolaborasi ormas Islam
-🛍️ KongChat UMKM Festival – diskon untuk merchant peserta
-🏛️ Advokasi Regulasi
-
-📄 Audiensi dengan Kominfo untuk sertifikasi lokal
-🤝 Kerjasama Kemendes PDTT untuk digitalisasi desa
-KongChat adalah gerakan — bukan hanya aplikasi.
-Fokus kami: akses untuk semua, dari kota hingga pelosok.
-
----
+# KongChat adalah gerakan — bukan hanya aplikasi.
+# Fokus kami: akses untuk semua, dari kota hingga pelosok.
 
 ---
 
 ## 🧭 Arsitektur Distribusi KongChat
 
-Strategi penyebaran KongChat mengadopsi pendekatan **multi-platform adaptif**, sehingga dapat menjangkau pengguna dari perangkat flagship sampai feature phone. Berikut adalah visualisasi alur distribusinya:
+  - Strategi penyebaran KongChat mengadopsi pendekatan **multi-platform adaptif**, sehingga dapat menjangkau pengguna dari perangkat flagship sampai feature phone.
+  
+## Berikut adalah visualisasi alur distribusinya:
 
 ```mermaid
 graph TD
@@ -358,8 +342,6 @@ graph TD
     B --> G[APK kecil <5MB]
     F --> H[SMS Gateway]
 ```
-
-
 ---
 
 # Penjelasan Singkat:
@@ -374,8 +356,6 @@ graph TD
 
 # 🎯 Tujuan utama: 
  * Tak ada satupun yang tertinggal, baik dari segi teknologi maupun infrastruktur.
-
----
 
 ---
 
@@ -437,12 +417,13 @@ function enableAccessibility() {
 
 ### a. Zero-Rating Partnership
 
+```mermaid
 graph LR
     K[KongChat] --> T[Telkomsel]
     K --> X[Xl/Axis]
-    K --> I[Indosat]
     K --> S[Smartfren]
     T --> Z[Paket #0Rp]
+```
 
 ### b. Monetisasi Etis
    ✅ Verifikasi UMKM (Rp10.000/bulan)
