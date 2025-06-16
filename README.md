@@ -18,7 +18,7 @@ KongChat bukan sekadar aplikasi chat — ini adalah jembatan digital untuk rakya
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OTk4cDM0MGNnamZiN3Q3aWVlZjRnZWFlM3UxZG92eXlrMWcyM296bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qKCvrZLXLwvzcjMKQ5/giphy.gif" alt="KongChat Animation" width="300"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dWxma2R1M2o2MGZjMm5zazg5c2xnY291eDE2dWppcm5kczJ2N2JzbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/NeUTZlXwiHp0JqYqDY/giphy.gif" alt="KongChat Animation" width="300"/>
 </p>
 
 <p align="center">
