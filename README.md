@@ -1,5 +1,5 @@
 <h1 align="center">🚀 KongChat App 🇮🇩</h1>
-<p align="center"><strong>🇮🇩 KongChat: "Satu Chat, Semua Bisa!"</strong></p>
+<p align="center"><strong>🇮🇩 KongChat: "Satu Percakapan, Sejuta Terobosan!"</strong></p>
 <p align="center">
   <a href="mailto:kongali1720@gmail.com">
     <img src="https://img.shields.io/badge/email-kongali1720@gmail.com-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email">
@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/made%20with-❤️%20by%20kongali1720-orange?style=flat-square" alt="Made with Love">
 </p>
 
-<p align="center"><strong>🌐 "Menghubungkan Indonesia dan dunia dengan kesetaraan digital."</strong></p>
+<p align="center"><strong>🌐 "Percakapan Bermartabat, Kolaborasi Tanpa Batas - Where Conversations Become Legacies"</strong></p>
 <p align="center"><strong>Konektivitas manusiawi. Fitur-fitur canggih. Desain yang merangkul semua kalangan.
 KongChat bukan sekadar aplikasi chat — ini adalah jembatan digital untuk rakyat Indonesia dari berbagai latar belakang.🌐"</strong></p>
 
