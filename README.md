@@ -1013,7 +1013,7 @@ graph TD
   - Mudah diintegrasikan ke sistem pemerintah atau BUMDes
   - Siap untuk ekspansi nasional & skala desa sekaligus
 
-![KongChat Banner](./kongchat.jpeg)
+![KongChat Banner](./kongchat.png)
 
 # 🔧 Cara Kerja Detail Fitur Unggulan
 
@@ -1226,8 +1226,6 @@ journey
 ```
 
 ✅ Proses selesai dalam hitungan detik, tanpa perlu keluar rumah, tanpa antri, tanpa ribet.
-
----
 
 ---
 
