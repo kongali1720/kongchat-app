@@ -39,6 +39,39 @@ Fokus kami adalah menghadirkan pengalaman komunikasi **nyaman, aman, dan cepat**
 
 ---
 
+# KongChat v1.0
+
+A real-time chat application with modern UI, CLI client, and advanced features.
+
+## Features
+- Modern UI with dark/light mode
+- Multi-room chat
+- User authentication
+- CLI client
+- End-to-end encryption (optional)
+- Voice messages (simulated)
+
+## Installation
+
+1. Clone the repository:
+   
+          git clone https://github.com/username/kongchat-v1.0-pro.git
+          cd kongchat-v1.0-pro
+
+2. Run the setup script:
+   
+          chmod +x INSTALL.sh
+          ./INSTALL.sh
+
+
+3. Start the server and frontend
+   
+          ./start.sh
+
+4. Access the web client at http://localhost:8000 or use the CLI client with:
+   
+          python3 cli/kongchat_cli.py
+
 ## 🧱 Struktur Proyek
 
 kongchat-v1.0-pro/ 
