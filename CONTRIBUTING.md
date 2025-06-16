@@ -1,6 +1,6 @@
  # 🤝 Kontribusi ke KongChat
 
-Selamat datang, pejuang kode! 🙌  
+Selamat datang, pejuang koding! 🙌  
 Kami sangat terbuka untuk kontribusi dari siapa pun yang peduli dengan kesetaraan digital, privasi, dan aksesibilitas di Indonesia dan negara berkembang. 🇮🇩🌏
 
 ## 🧭 Cara Memulai
