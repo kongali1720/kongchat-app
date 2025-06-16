@@ -1,0 +1,254 @@
+:root {
+    --bg-light: #f0f2f5;
+    --bg-dark: #1e1e2d;
+    --text-light: #333;
+    --text-dark: #fff;
+    --accent: #4e73df;
+    --sidebar-light: #ffffff;
+    --sidebar-dark: #252836;
+    --message-light: #ffffff;
+    --message-dark: #2d3748;
+    --message-self: #4e73df;
+    --message-other: #edf2f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+}
+
+.chat-container {
+    width: 95%;
+    max-width: 1200px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    background-color: var(--sidebar-dark);
+    transition: background-color 0.3s;
+}
+
+body.light-mode .chat-container {
+    background-color: var(--sidebar-light);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: var(--accent);
+    color: white;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+#themeToggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chat-room {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: var(--sidebar-dark);
+    color: var(--text-dark);
+    padding: 20px;
+    overflow-y: auto;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode .sidebar {
+    background-color: var(--sidebar-light);
+    color: var(--text-light);
+}
+
+.sidebar h2 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.rooms ul, .users ul {
+    list-style: none;
+}
+
+.rooms li, .users li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.rooms li:hover, .users li:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+body.light-mode .rooms li:hover, body.light-mode .users li:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
+.rooms li.active {
+    background-color: var(--accent);
+    color: white;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: var(--bg-dark);
+    transition: background-color 0.3s;
+}
+
+body.light-mode .messages {
+    background-color: var(--bg-light);
+}
+
+.message {
+    margin-bottom: 15px;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.message .sender {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message .content {
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: inline-block;
+    max-width: 70%;
+}
+
+.message.self {
+    text-align: right;
+}
+
+.message.self .content {
+    background-color: var(--message-self);
+    color: white;
+}
+
+.message.other .content {
+    background-color: var(--message-other);
+    color: var(--text-light);
+}
+
+body.light-mode .message.other .content {
+    background-color: var(--message-other);
+    color: var(--text-light);
+}
+
+.message .time {
+    font-size: 0.8rem;
+    color: #a0aec0;
+    margin-top: 5px;
+    display: block;
+}
+
+.input-area {
+    padding: 15px;
+    display: flex;
+    background-color: var(--sidebar-dark);
+    transition: background-color 0.3s;
+}
+
+body.light-mode .input-area {
+    background-color: var(--sidebar-light);
+}
+
+#messageInput {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+#emojiPicker {
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+    background-color: var(--sidebar-dark);
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    max-width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.emoji {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.emoji:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100px;
+    }
+    .rooms h2, .users h2 {
+        font-size: 0.9rem;
+    }
+    .rooms li, .users li {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+}
