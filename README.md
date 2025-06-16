@@ -421,7 +421,7 @@ function enableAccessibility() {
 graph LR
     K[KongChat] --> T[Telkomsel]
     K --> X[Xl/Axis]
-    K --> S[Smartfren]
+    K --> M3[Indosat]
     T --> Z[Paket #0Rp]
 ```
 
