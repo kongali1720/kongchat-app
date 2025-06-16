@@ -59,20 +59,21 @@ A real-time chat application with modern UI, CLI client, and advanced features.
 
 1. Clone the repository:
    
-          git clone https://github.com/username/kongchat-v1.0-pro.git
+          git clone https://github.com/kongali1720/kongchat-app.git
+   
           cd kongchat-v1.0-pro
 
-2. Run the setup script:
+3. Run the setup script:
    
           chmod +x INSTALL.sh
           ./INSTALL.sh
 
 
-3. Start the server and frontend
+4. Start the server and frontend
    
           ./start.sh
 
-4. Access the web client at http://localhost:8000 or use the CLI client with:
+5. Access the web client at http://localhost:8000 or use the CLI client with:
    
           python3 cli/kongchat_cli.py
 
