@@ -1,12 +1,12 @@
 <h1 align="center">🚀 KongChat App 🇮🇩</h1>
 <p align="center"><strong>🇮🇩 KongChat: "Satu Chat, Semua Bisa!"</strong></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/kongali1720/kongchat?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/built%20with-love-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/security-AES--256-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/platform-PWA%20%7C%20Mobile%20%7C%20CLI-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/localization-Indonesia%20Friendly-yellow?style=for-the-badge" />
+  <a href="mailto:kongali1720@gmail.com">
+    <img src="https://img.shields.io/badge/email-kongali1720@gmail.com-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <img src="https://img.shields.io/badge/KONGCHAT-Virtual%20Assistant-green?style=flat-square&logo=chatbot" alt="KongChat Badge">
+  <img src="https://img.shields.io/badge/version-1.0.0-blueviolet?style=flat-square&logo=github" alt="Version">
+  <img src="https://img.shields.io/badge/made%20with-❤️%20by%20kongali1720-orange?style=flat-square" alt="Made with Love">
 </p>
 
 <p align="center"><strong>🌐 "Menghubungkan Indonesia dan dunia dengan kesetaraan digital."</strong></p>
@@ -19,6 +19,10 @@ KongChat bukan sekadar aplikasi chat — ini adalah jembatan digital untuk rakya
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OTk4cDM0MGNnamZiN3Q3aWVlZjRnZWFlM3UxZG92eXlrMWcyM296bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qKCvrZLXLwvzcjMKQ5/giphy.gif" alt="KongChat Animation" width="300"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kongali1720/kongali1720.github.io/main/kongchat.png" alt="KONGCHAT" width="300">
 </p>
 
 ---
