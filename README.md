@@ -369,7 +369,7 @@ kongchat_cli --protocol=txtonly --compression=zstd
 
 ```mermaid
 graph TD
-    A[KongChat Core] --> B(Android)
+    A[KongChat App] --> B(Android)
     A --> C(iOS)
     A --> D(Web PWA)
     A --> E(CLI/Linux)
