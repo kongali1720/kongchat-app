@@ -61,7 +61,7 @@ A real-time chat application with modern UI, CLI client, and advanced features.
    
           git clone https://github.com/kongali1720/kongchat-app.git
    
-          cd kongchat-v1.0-pro
+          cd kongchat-app
 
 3. Run the setup script:
    
