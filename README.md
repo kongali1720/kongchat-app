@@ -65,13 +65,12 @@ A real-time chat application with modern UI, CLI client, and advanced features.
 
 3. Run the setup script:
    
-          chmod +x INSTALL.sh
-          ./INSTALL.sh
-
-
+          # Berikan permission execute
+          chmod +x install.sh
+          
 4. Start the server and frontend
    
-          ./start.sh
+          sudo ./install.sh
 
 5. Access the web client at http://localhost:8000 or use the CLI client with:
    
